@@ -32,6 +32,17 @@
       ul {
         list-style-type: none;
       }
+
+      table,
+      td,
+      th {
+        border: 1px solid grey;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+      tfoot {
+        text-align: left;
+      }
     </style>
   </head>
   <body>
@@ -139,6 +150,33 @@
       <dt>Css</dt>
       <dd>cascating style sheet</dd>
     </dl>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">expensive</th>
+        </tr>
+        <tr>
+          <th>category</th>
+          <th>amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>marketing</td>
+          <td>100euro</td>
+        </tr>
+        <tr>
+          <td>accounting</td>
+          <td>200euro</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>total</th>
+          <th>300euro</th>
+        </tr>
+      </tfoot>
+    </table>
     <a href="#">Jump to top</a>
   </body>
 </html>
