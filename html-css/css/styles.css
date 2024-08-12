@@ -4,3 +4,35 @@ body {
 .tuto {
   color: red;
 }
+
+#products p {
+  color: orange;
+}
+
+#products > p {
+  color: blueviolet;
+}
+
+#products + p {
+  color: pink;
+}
+
+/* #products ~ p {
+  color: brown;
+} */
+
+a[target] {
+  color: orange;
+}
+
+/* a[target="_blank"] { } */
+
+/* a[href="https://google.com"]{} */
+
+a[href*="google"] {
+  color: red;
+}
+
+/* a[href^="https"] {}  */
+
+/* a[href^="https"] [href$=".com"] {} */
